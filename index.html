@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Search</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <aside>
@@ -41,6 +44,136 @@
             </div>
         </nav>
     </aside>
+
+    <main>
+
+    <header>
+        <form class="form">
+            <input type="text" placeholder="Quick Search (ctrl + D)" value="">
+            <i class="fa fa-search"></i>
+        </form>
+        <div class="user-block">
+            <div class="main-notifications">                                 
+                <img class="notifications" src="./img/bell.png" alt="bell">
+            </div>
+            <div class="user-name">                
+                <p class="name-full">Anne Douglas</p>
+                <i class="fa fa-chevron-down"></i>
+            </div>
+        </div>        
+    </header>
+
+    <section class="job-board">
+        <h1>Job Board</h1>
+    </section>
+
+    <section class="search-inputs">
+        <form class="form-inputs">
+            <input type="text" placeholder="Search by job title, company, keywords" value="">
+            <img src="./img/search.png" alt="search">
+        </form>
+        <div class="anywhere">
+            <img src="./img/anywhere.png" alt="anywhere">
+            <p>Anywhere</p>
+            <i class="fa fa-chevron-down"></i>
+        </div>
+        <div class="filters">
+            <img src="./img/filters.png" alt="filter">
+            <p>Filters</p>
+            <i class="fa fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section class="search-filters">
+        <div class="filter-blocks">
+            <img src="./img/x.png" alt="x">
+            <p>Design</p>
+        </div>
+        <div class="filter-blocks">
+            <img src="./img/x.png" alt="x">
+            <p>Regular</p>
+        </div>
+        <div class="filter-blocks">
+            <img src="./img/x.png" alt="x">
+            <p>Full time</p>
+        </div>
+        <div class="filter-blocks">
+            <img src="./img/x.png" alt="x">
+            <p>B2B</p>
+        </div>
+        <div class="filter-blocks clear-all">
+            <p>Clear All</p>
+        </div>
+    </section>
+
+    <section class="found-jobs">
+        <p>We've found <span>523</span> jobs!</p>
+        <p>Sort by: <span>Date</span></p>
+        <i class="fa fa-chevron-down"></i>
+    </section>
+
+    <section class="job-descriptions">
+        <div class="first-job">
+            <img class="job-icons" src="./img/job1.png" alt="dropbox">
+            <div>
+                <div class="job-title">
+                    <p>UX Designer</p>
+                    <img src="./img/remote.png" alt="remote">
+                    <img src="./img/sketch.png" alt="sketch">
+                </div>
+                <div class="job-location">
+                    <p>Dropbox</p>
+                    <img src="./img/line.png" alt="line">
+                    <p>Warszawa</p>
+                </div>
+            </div>
+            <div class="job-salary">
+                <p>8.8 - 13.7k PLN</p>
+                <p class="days">2 days ago</p>                
+            </div>
+        </div>
+        <div class="first-job active-job">
+            <img class="job-icons" src="./img/job2.png" alt="twitch">
+            <div>
+                <div class="job-title">
+                    <p>Product Designer</p>
+                    <img src="./img/remote.png" alt="remote">                   
+                </div>
+                <div class="job-location">
+                    <p>Twitch</p>
+                    <img src="./img/line.png" alt="line">
+                    <p>Wroclaw</p>
+                    <img class="finger-dot" src="./img/finger.png" alt="finger-dot">
+                </div>
+            </div>
+            <div class="job-salary">
+                <p>8.2 - 13.5k PLN</p>
+                <p class="days">2 days ago</p>                
+            </div>
+        </div>
+        <div class="first-job">
+            <img class="job-icons" src="./img/job3.png" alt="google">
+            <div>
+                <div class="job-title">
+                    <p>UX/UI Designer</p>
+                    <img src="./img/remote.png" alt="remote">
+                    <img src="./img/javascript.png" alt="javascript">
+                </div>
+                <div class="job-location">
+                    <p>Google</p>
+                    <img src="./img/line.png" alt="line">
+                    <p>Warszawa</p>
+                </div>
+            </div>
+            <div class="job-salary">
+                <p>7.5 - 12.5k PLN</p>
+                <p class="days">3 days ago</p>                
+            </div>
+        </div>
+    </section>
+
+    
+    </main>
     
 </body>
 </html>

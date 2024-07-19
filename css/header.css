@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    background-color: white;
+    width: 100%;
+    padding: 10px 30px;
+    height: 70px;  
+}
+
+.form {
+    margin-top: 10px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.form > input {
+    width: 360px;
+    height: 30px;
+    font-size: 14px;
+    padding: 15px 20px 15px 50px;
+    border: none;
+    background-color: #F4F0FD;
+    border-radius: 25px;
+    color: #9FA4B8;    
+}
+
+.form > .fa {
+    font-size: 18px;
+    line-height: 30px;
+    color: #9FA4B8;
+    position: absolute;
+    top: 1px;
+    left: 14px;
+}
+
+.user-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 30px;
+}
+
+.user-name > .fa {    
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,128 @@
+@media (max-width: 900px) {
+    .job-descriptions {
+        gap: 10px;
+    }
+
+    .job-title {
+        gap: 0px;
+    }
+
+    .job-salary {
+        font-size: 10px;
+    }
+
+    .days {
+        font-size: 10px;    
+    }
+
+    header {
+        padding: 0px;
+    }
+
+    .finger-dot {       
+        left: 350px;        
+    }
+}
+
+@media (max-width: 460px) {
+    body {           
+        grid-template-columns: 200px 1fr;        
+    }
+
+    main {
+        margin-right: 0px;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;        
+        width: 100%;
+        padding: 10px 20px;
+        height: 70px;  
+    }
+
+    .form > input {
+        width: 180px;
+        height: 30px;
+        font-size: 10px;           
+    }
+
+    .form {        
+        margin-left: 10px;
+    }
+
+    .search-inputs {
+        margin-left: 10px;
+        gap: 5px;   
+    }
+
+    .form-inputs > input {
+        width: 200px;        
+    }
+
+    .anywhere {        
+        width: 200px;       
+    }
+
+    .filters {       
+        width: 200px;       
+    }
+
+    .search-filters {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: 15px;
+        gap: 5px; 
+    }
+
+    .filter-blocks {
+        display: flex;
+        gap: 10px;
+        align-items: center;        
+        padding: 0px 20px 0px 5px;      
+    }
+
+    .filter-blocks > p {
+        font-size: 10px;
+        color: #9FA4B8; 
+    }
+
+    .found-jobs {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 0px;       
+    }
+
+    .found-jobs > .fa {        
+        top: 60px;
+        left: 90px;       
+    }
+
+    .first-job {
+        display: flex;
+        flex-direction: column;
+        height: 250px;       
+        margin-left: 10px;
+        margin-right: 10px;     
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    .job-icons {
+        position: absolute;
+        left: 10px;
+        top: 150px;
+    }
+
+    .finger-dot {       
+        left: 100px;        
+    }
+}
